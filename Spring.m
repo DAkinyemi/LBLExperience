@@ -1,0 +1,1 @@
+% David Akinyemi June 25 2018% Compute acceleration and force when given spring constant and positionfunction [y] = Spring(x,k,m,h,t)F = x * -k;a = m * F;v = x/t;rh = 1\h;v2 = ((x+h)-x)*rh;[F x v v2 a]

@@ -1,0 +1,1 @@
+% David Akinyemi June 25 2018% Taylor polynomial % Given a function, this program produces a taylor approximationfunction [n] = Taylor(f,x,a,n)rh=1/.1;counter = 0;for i = 1:n        fprime(a) = (f(a+h)-f(a))*rh;        y = f(a) + fprime(a)        counter = counter + 1;endwhile[y  f(y)  counter]

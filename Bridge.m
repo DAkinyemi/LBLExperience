@@ -1,0 +1,1 @@
+%David Akinyemi%July 13, 2018%Given height, length and midpoing height can create bridge function [x,y] = Bridge(a,h,L,n)x(1) = 0;y(1) = a;for i = 1:n    x(i+1) = x(i) + 1;    y(i+1) = ((4*h)/L^2) * x(i).^2 + a; endforcloseplot(x,y)xlabel('x'); ylabel('y'); 
